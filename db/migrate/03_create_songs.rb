@@ -1,5 +1,4 @@
 class CreateSongs < ActiveRecord::Migration
-  class CreateSongs < ActiveRecord::Migration
   def change
     create_table :songs do |t|
       t.string :name 
@@ -7,5 +6,4 @@ class CreateSongs < ActiveRecord::Migration
       t.integer :genre_id
     end
   end
-end
 end
